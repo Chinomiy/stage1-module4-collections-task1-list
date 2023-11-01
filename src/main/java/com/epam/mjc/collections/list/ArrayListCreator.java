@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListCreator {
-    public static void main(String[] args) {
-        System.out.println(2 % 3);
-    }
-
     public ArrayList<String> createArrayList(List<String> sourceList) {
         ArrayList<String> newList = new ArrayList<>();
         if (sourceList.size() < 3) {

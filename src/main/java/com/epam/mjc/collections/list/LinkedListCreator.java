@@ -9,10 +9,10 @@ public class LinkedListCreator {
         if (sourceList.isEmpty()) {
             return newList;
         }
-        for(Integer item : sourceList) {
+        for (Integer item : sourceList) {
             if (item % 2 == 0) {
                 newList.addLast(item);
-            }else {
+            } else {
                 newList.addFirst(item);
             }
         }
