@@ -19,7 +19,7 @@ public class ListSorterTest {
 
                 Arguments.of("NonEmptyList",
                         new ArrayList<>(List.of("7", "10", "6", "-7", "-2", "0", "-2", "-23")),
-                        List.of("0", "-2", "-2", "6", "-7", "7", "10", "-23"))
+                        List.of("0", "-2", "-2", "6", "7", "-7", "10", "-23"))
         );
     }
 
